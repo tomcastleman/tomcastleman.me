@@ -1,78 +1,170 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
+<head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="description" content="Tom Castleman : Web Software Engineer, IT Consultant, Solution Architect">
 
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/tom.css">
 
     <title>Tom Castleman</title>
-  </head>
+</head>
 
-  <body>
+<body>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <h1 id="project_title">Tom Castleman</h1>
-          <h2 id="project_tagline">Web Software Engineer, IT Consultant, Solution Architect</h2>
+<!-- HEADER -->
+<div id="header_wrap" class="outer">
+    <header class="inner">
+        <div id="profile_img">
+            <img alt="Tom Castleman"
+                 src="https://pbs.twimg.com/profile_images/378800000029057605/b2d146920569149a5a7d9ec67590cc00_400x400.jpeg">
+        </div>
+        <h1 id="project_title">Tom Castleman</h1>
 
-        </header>
-    </div>
+        <h2 id="project_tagline">Web Software Engineer, IT Consultant, Solution Architect</h2>
+    </header>
+</div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h2>
-<a id="web-software-engineer" class="anchor" href="#web-software-engineer" aria-hidden="true"><span class="octicon octicon-link"></span></a>Web Software Engineer</h2>
+<!-- MAIN CONTENT -->
+<div id="main_content_wrap" class="outer">
+    <section id="main_content" class="inner">
+        <p>
+            Since 2004 I have been working professionally with businesses &amp; the web,
+            analysing business problems and developing solutions across a wide
+            variety of technologies.
+        </p>
 
-<p>I solve business problems with well designed &amp; tested solid software solutions. I have been working with PHP for over 10 years and take active interest in the latest technologies &amp; best practices in a language which has really started to nicely mature in recent years.</p>
+        <p>
+            I am based in Birmingham UK, often in London.
+        </p>
 
-<p>Over the years I have used various frameworks including CodeIgnitor, Fuel, &amp; Kohana 3. I love Composer &amp; Packagist and the structure &amp; ecosystem those bring to PHP application development. When I need more Laravel and Symfony are frameworks I really enjoy to use. Where possible I like to contribute to the open source software I use, including the Laravel core &amp; docs. I have also released Laravel extensions to implement missing functionality for my projects.</p>
+        <div>
 
-<p>Whilst I slightly prefer backend development and have lots of experience in database design and using PHP with MySQL, PostgreSQL, &amp; SQLServer, I also have lots of experience with the front end and I have been experimenting with VueJS recently. Naturally I work with HTML5, CSS3/SASS, lots of jQuery. I love the new frontend build features of Laravel 5 including elixir.</p>
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active">
+                    <a href="#tldr" aria-controls="tldr" role="tab" data-toggle="tab">
+                        TLDR;
+                    </a>
+                </li>
+                <li role="presentation">
+                    <a href="#detail" aria-controls="detail" role="tab" data-toggle="tab">
+                        I've Got Time
+                    </a>
+                </li>
+            </ul>
 
-<p>From a devops perspective I have been working with Ubuntu since its inception and daily I work with build processes supporting apps and have experience working with AWS, Heroku, Digital Ocean etc.</p>
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="tldr">
+                    <p>Key points:</p>
+                    <ul>
+                        <li>Business analysis, solution development.</li>
+                        <li>Web application design, implementation, maintenance.</li>
+                        <li>Modern PHP development with &gt;10 years experience.</li>
+                        <li>Keen &amp; quick to learn new technologies.</li>
+                        <li>Laravel, Symfony, Kohana frameworks.</li>
+                        <li>Database design, maintenance.</li>
+                        <li>Dev ops.</li>
+                        <li>Front-end HTML5, SASS, jQuery, VueJS.</li>
+                        <li>Involved in developer community.</li>
+                        <li>BSc (Hons) Computer Science &amp; Software Engineering.</li>
+                        <li>Run <a target="_blank" href="http://b3it.co">B3 IT Consulting</a>.</li>
+                    </ul>
+                </div>
 
-<p>I have recently been involved with the new Laravel Birmingham meet up and I am scheduled to give talks in the coming months. I want to get involved in the PHP community and in 2015 I kicked this off with LaraconEU.</p>
+                <div role="tabpanel" class="tab-pane" id="detail">
+                    <h2>Web Software Engineer</h2>
 
-<p>I participate in various forums and like to follow and keep up to date with the community. Currently I am interested in discussions on software design patterns and testing methodologies.</p>
+                    <p>
+                        I solve business problems with robust, well designed &amp; tested software solutions.
+                        I have been working with PHP for over 10 years and take active interest in the latest
+                        technologies &amp; best practices in a language which has really started to mature
+                        in recent years.
+                    </p>
 
-<h2>
-<a id="it-consultant" class="anchor" href="#it-consultant" aria-hidden="true"><span class="octicon octicon-link"></span></a>IT Consultant</h2>
+                    <p>
+                        Over the years I have used various frameworks including CodeIgnitor, Fuel, &amp; Kohana 3.
+                        I love Composer &amp; Packagist, the structure &amp; ecosystem they bring to modern PHP
+                        application development, and Laravel &amp; Symfony are frameworks I enjoy using. Where possible
+                        I like to
+                        contribute to open source projects, including
+                        the Laravel core &amp; docs. I have also released Laravel extensions to implement missing
+                        functionality for my projects.
+                    </p>
 
-<p>With my business partner I have run <a href="http://b3it.co">B3 IT</a> since 2004. Over the years I have worked on projects covering a wide variety of IT disciplines.</p>
+                    <p>
+                        Whilst I slightly prefer backend development and have lots of experience in database design and
+                        using PHP
+                        with MySQL, PostgreSQL, &amp; SQLServer, I also have lots of experience with the front end and I
+                        have been
+                        experimenting with VueJS recently. Naturally I work with HTML5, CSS3/SASS, lots of jQuery. I
+                        love the new
+                        frontend build features of Laravel 5 including elixir.
+                    </p>
 
-<h2>
-<a id="solution-architect" class="anchor" href="#solution-architect" aria-hidden="true"><span class="octicon octicon-link"></span></a>Solution Architect</h2>
+                    <p>
+                        From a devops perspective I have been working with Ubuntu since its inception and daily I work
+                        with build
+                        processes supporting apps and have experience working with AWS, Heroku, Digital Ocean etc.
+                    </p>
 
-<p>
-  Combining my passion for web software engineering and IT consulting I work with clients to design robust
-  solutions to solve their business problems.
-  </p>
+                    <p>
+                        I have recently been involved with the new Laravel Birmingham meet up and I am scheduled to give
+                        talks in
+                        the
+                        coming months. I want to get involved in the PHP community and in 2015 I kicked this off with
+                        LaraconEU.
+                    </p>
 
-<h3>
-<a id="links" class="anchor" href="#links" aria-hidden="true"><span class="octicon octicon-link"></span></a>Links</h3>
+                    <p>
+                        I participate in various forums and like to follow and keep up to date with the community.
+                        Currently I am
+                        interested in discussions on software design patterns and testing methodologies.
+                    </p>
 
-<ul>
-  <li><a href="https://github.com/tomcastleman">Personal Github</a></li>
-<li><a href="https://github.com/b3it">Company Github</a></li>
-<li><a href="http://www.b3it.co">Company Website</a></li>
-<li><a href="https://uk.linkedin.com/in/tomcastleman">LinkedIn</a></li>
-</ul>
-      </section>
-    </div>
+                    <h2>IT Consultant &amp; Solution Architect</h2>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Contact me to discuss your next project. hello [at] b3it.co</p>
-      </footer>
-    </div>
+                    <p>
+                        I have been running <a target="_blank" href="http://b3it.co">B3 IT Consulting</a>
+                        since 2004 working closely with my business partner on projects across
+                        a wide variety of IT disciplines and technologies.
+                    </p>
 
-    
+                    <p>
+                        This allows me to combine my passion for web software engineering and experience in
+                        broader IT consulting to design robust solutions to solve business problems.
+                    </p>
 
-  </body>
+                </div>
+
+            </div>
+        </div>
+
+        <h3>Links</h3>
+
+        <ul>
+            <li><a target="_blank" href="https://github.com/tomcastleman">Personal Github</a></li>
+            <li><a target="_blank" href="https://github.com/b3it">Company Github</a></li>
+            <li><a target="_blank" href="http://www.b3it.co">Company Website</a></li>
+            <li><a target="_blank" href="https://uk.linkedin.com/in/tomcastleman">LinkedIn</a></li>
+            <li><a target="_blank" href="https://twitter.com/tomcastleman">Twitter</a></li>
+        </ul>
+    </section>
+</div>
+
+<!-- FOOTER  -->
+<div id="footer_wrap" class="outer">
+    <footer class="inner">
+        <p>Contact me to discuss your next project: tom [at] b3it.co</p>
+    </footer>
+</div>
+
+
+</body>
 </html>

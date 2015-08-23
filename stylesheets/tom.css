@@ -1,0 +1,32 @@
+div#profile_img {
+    background: #fff;
+    border: 5px solid #fff;
+    border-radius: 12px;
+    box-shadow: 0 1px 1px rgba(136,153,166,0.15);
+    height: 200px;
+    position: relative;
+    width: 200px;
+    float: right;
+    margin-left: 8px;
+}
+div#profile_img img {
+    border-radius: 8px;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+header.inner:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+@media screen and (max-width: 480px) {
+    div#profile_img {
+        float: none;
+        margin: 0 auto;
+        width: 120px;
+        height: 120px;
+    }
+}
