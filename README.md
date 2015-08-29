@@ -1,6 +1,6 @@
 # Tom Castleman
 
-## Web Software Engineer, IT Consultant, Solution Architect
+## Web Software Engineer, IT Consultant
 
 [tom.b3it.co](http://tom.b3it.co)
 
